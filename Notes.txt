@@ -1,0 +1,70 @@
+Seperate in lego blocks 
+-use Bootstrapp with ReactJS
+-how to use the props and state 
+-Virtual Dom is the key for React
+
+npm i boostrap@4.6.0- instalation
+-second step-
+npm install react-boostrap
+
+
+https://react-bootstrap.github.io/
+
+react-bootstrap-v4.netlify.app
+
+ctrl-C : stop command
+npm start : start command
+
+Import bootsrap elements
+Important to add : 
+-import 'bootstrap/dist/css/bootstrap.min.css'
+-import {Navbar,Nav, NavDropdown} from 'react-bootstrap'
+
+App.js - to add React components
+or write your own component 
+
+Create components folder
+Create file with component
+
+const MyNavbar = (props) =>{...}
+
+react devtools
+
+Profiler-measuring performace
+Components- tree of components, see all props 
+
+Prefered way to import
+
+-import Carousel from 'react-boostrap/Carousel'
+
+Lorem Picsum -resource
+
+Container>Row>Col
+
+style={{ marginTop:'2px' }}-passsing object
+
+className="justify-content-center"
+
+className="col col-12 col-md-6"
+
+xs={12} md={6}
+
+import dishes from '../data/menu.json'-import json data
+
+create code block
+{
+ dishes.map(dish =>(... {dish.name}... {dish.description}...{dish.image}..)) 
+}
+
+Carousel.Item key={dish.id}
+Carousel.Item
+For solving some errors
+
+state is an object to rember properties
+
+selectedDish : null
+
+this.setState({selectedDish: 'null'}) 
+
+&& short -circuit operator 
+
