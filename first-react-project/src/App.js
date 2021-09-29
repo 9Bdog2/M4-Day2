@@ -1,11 +1,13 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import MyNavbar from './components/MyNavbar'
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import MyNavbar from "./components/MyNavbar";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div>
-      <MyNavbar brand="StriveBooks"/>
+      <MyNavbar brand="Strivestaurant" />
+      <Home />
     </div>
   );
 }
