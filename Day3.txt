@@ -1,0 +1,61 @@
+Recap
+Controlled Inputs
+Remote API's
+Our components State should be a reflection of the UI rendered
+
+Controlled inputs for keeping our DOM bound with the stte
+Remote fetches in React Components work the same as in M3
+
+Bind your component state with your UI
+Controlled form in React
+
+everything starts from App.js
+put in div, wrapped in 
+
+Conditional rendering 
+instead of If 
+
+connecting two components
+
+Recap done 
+
+Introduce a new feature 
+Reservation form 
+
+write a from 
+The for will send information to API 
+
+Tomorrow we will fetch them 
+Today we will save information 
+
+for a form we need a state 
+
+class ReservationForm extends Component
+
+render() is mandatory in class
+
+Copy / paste simple form form Bootstrap
+
+import Form from '.../Form'
+same for  button 
+
+send Name, phone , number of people , smoking (true or false) , dateTime, SpecialRequest
+
+create state 
+sub-object
+reservation:{name:'Stefano'...}
+
+value={'Strive' or this.state.reservation.name}
+
+onChange={e => this.setState({reservation:{name: e.target.value}})}
+controlled input(changing the state)
+two step process
+set it's value 
+
+...this,state,reservation
+spread operator to keep the previous states (cloning)
+
+onSubmit={this.handleSubmit}
+
+handleSubmit = (e)=>{e.preventDefault()}
+
